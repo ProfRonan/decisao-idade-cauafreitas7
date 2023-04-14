@@ -7,6 +7,6 @@ if número < 18:
 elif número > 18 and número < 65:
    print('Não esqueça de votar na próxima eleição.')
 elif número > 65: 
-   print('Vá descansar')
+   print('Vá descansar.')
 else:
     print('eita!')

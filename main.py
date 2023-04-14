@@ -2,7 +2,7 @@ número = input('Digite um número: ')
 número = int(número)
 if número < 0:
    print('impossível!')
-elif número < 18:
+if número < 18:
    print('não precisa se alistar.')
 elif número > 18 and número < 65:
    print('Não esqueça de votar na próxima eleição.')

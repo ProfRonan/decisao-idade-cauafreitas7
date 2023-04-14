@@ -4,7 +4,7 @@ if número < 0:
    print('impossível!')
 elif número < 18:
    print('não precisa se alistar.')
-elif número > 18 and número < 65:
+elif número > 18 or número < 65:
    print('Não esqueça de votar na próxima eleição.')
 elif número > 65: 
    print('Vá descansar')
